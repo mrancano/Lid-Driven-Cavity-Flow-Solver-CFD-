@@ -1,0 +1,9 @@
+for N = 3:
+
+xvec and xvecdual are correct, yvec and yvecdual are correct
+
+First term of convective operator for U is correct
+
+COnvergence achieved for both
+
+

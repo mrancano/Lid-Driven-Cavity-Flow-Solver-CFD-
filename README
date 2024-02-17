@@ -1,0 +1,6 @@
+Final Project for CFD Class at UT Austin
+2D Lid-Driven Cavity flow solver using fractional step method
+
+Instructions:
+
+use main file to run the solver, set the value for Re as desired, the time step size k, the value of N and the number of steps to be taken.

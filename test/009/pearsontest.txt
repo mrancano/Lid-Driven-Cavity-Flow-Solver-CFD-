@@ -1,0 +1,22 @@
+The U momentum gives a coherent output for the first time step N=3 (likely division by h or k still needs to be checked)
+
+[ 0.          0.         -0.05922752  0.05892449  0.          0.
+  0.          0.          0.05922752 -0.05892449  0.          0.
+  0.          0.          0.75836244 -0.75108972  0.          0.
+  0.          0.          0.14256085  0.02440885  0.          0.
+  0.          0.          1.85743915  1.97559115  0.          0.        ]
+
+The V momentum gives a coherent output for the first time step N=3 (likely division by h or k still needs to be checked)
+
+[ 0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.         -0.25921103  0.25921103
+  1.06240355 -0.5741223   0.5741223  -0.5741223   0.5741223  -1.06240355
+ -0.25921103  0.25921103  0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.        ]
+
+The pressure matrix is rank deficient. The pressure values seem to be ok (at least they generate gradients that behave as expected on boundary).
+
+Checked the h, k and Re divisions in the star step
+
+
+
